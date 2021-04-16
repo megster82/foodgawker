@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'bundler/setup'
+require 'foodgawker'
+
+# you're setting up this bin file so you don't have to program in it anymore
+# instead, you can start programming everything into this object(below) entirely (i.e. encapsulation)
+# so you can discover new objects
+Foodgawker::CLI.new.call
