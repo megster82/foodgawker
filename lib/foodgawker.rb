@@ -1,3 +1,6 @@
+require 'open-uri'
+require 'nokogiri'
+require 'pry' #will need to take out later
 #requiring your version
 require_relative './foodgawker/version'
 
